@@ -50,7 +50,20 @@
             
             UserModel *userModel = [[UserModel alloc]initWithDataDic:[dic objectForKey:@"user"]];
             
+            RepostWeiboModel *repostModel = nil;
+            
+            if ([dic objectForKey:@"retweeted_status"]) {
+                
+                 repostModel = [[RepostWeiboModel alloc]initWithDataDic:[dic objectForKey:@"retweeted_status"]];
+                
+                RepostUserModel *repostUserModel = [[RepostUserModel alloc]initWithDataDic:[[dic objectForKey:@"retweeted_status"] objectForKey:@"user"]];
+                
+                repostModel.repostUserModel = repostUserModel;
+            }
+            
             model.user = userModel;
+            
+            model.repostModel = repostModel;
             
             [_dataList addObject:model];
         }
@@ -84,10 +97,10 @@
     WeiboView *weiboView = [[WeiboView alloc]initWithFrame:CGRectMake(0, 0, 304, 0)];
     
     weiboView.model = _dataList[indexPath.row];
-
-    if (weiboView.model.pic_urls.count == 0) {
-
-        return 71 + weiboView.textLabel.bottom;
+    
+    if (weiboView.model.repostModel) {
+        
+        return 71 + weiboView.reImageView.bottom + weiboView.imageView.bottom;
     }
 
     return 71 + weiboView.imageView.bottom;

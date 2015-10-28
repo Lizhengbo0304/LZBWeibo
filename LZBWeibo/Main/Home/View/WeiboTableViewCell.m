@@ -37,7 +37,7 @@
     
     _nameLabel.text = _model.user.screen_name;
     
-    _sourceLabel.text = _model.source;
+    _sourceLabel.text = [Utils formatString:_model.createDate];
     
     _weiboView.model = _model;
         

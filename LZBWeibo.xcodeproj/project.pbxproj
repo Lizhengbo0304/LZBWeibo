@@ -17,6 +17,8 @@
 		300D324D1BE06E8900EA705A /* WeiboTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 300D324B1BE06E8900EA705A /* WeiboTableViewCell.m */; };
 		300D324E1BE06E8900EA705A /* WeiboTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 300D324C1BE06E8900EA705A /* WeiboTableViewCell.xib */; };
 		300D32511BE06E9A00EA705A /* WeiboView.m in Sources */ = {isa = PBXBuildFile; fileRef = 300D32501BE06E9A00EA705A /* WeiboView.m */; };
+		304857591BE0BDF200BA4589 /* RepostWeiboModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 304857581BE0BDF200BA4589 /* RepostWeiboModel.m */; };
+		3048575C1BE0BF9100BA4589 /* RepostUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3048575B1BE0BF9100BA4589 /* RepostUserModel.m */; };
 		304C8E101BDF5BA00076B5C2 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 304C8E0F1BDF5BA00076B5C2 /* BaseNavigationController.m */; };
 		304C8E171BDF5E870076B5C2 /* BVBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 304C8E161BDF5E870076B5C2 /* BVBaseModel.m */; };
 		304C8E2E1BDF5F3B0076B5C2 /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 304C8E2D1BDF5F3B0076B5C2 /* LeftViewController.m */; };
@@ -468,6 +470,10 @@
 		300D324C1BE06E8900EA705A /* WeiboTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WeiboTableViewCell.xib; sourceTree = "<group>"; };
 		300D324F1BE06E9A00EA705A /* WeiboView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeiboView.h; sourceTree = "<group>"; };
 		300D32501BE06E9A00EA705A /* WeiboView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeiboView.m; sourceTree = "<group>"; };
+		304857571BE0BDF200BA4589 /* RepostWeiboModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RepostWeiboModel.h; path = Model/RepostWeiboModel.h; sourceTree = "<group>"; };
+		304857581BE0BDF200BA4589 /* RepostWeiboModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RepostWeiboModel.m; path = Model/RepostWeiboModel.m; sourceTree = "<group>"; };
+		3048575A1BE0BF9100BA4589 /* RepostUserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RepostUserModel.h; path = Model/RepostUserModel.h; sourceTree = "<group>"; };
+		3048575B1BE0BF9100BA4589 /* RepostUserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RepostUserModel.m; path = Model/RepostUserModel.m; sourceTree = "<group>"; };
 		304C8E0E1BDF5BA00076B5C2 /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseNavigationController.h; path = Base/BaseNavigationController.h; sourceTree = "<group>"; };
 		304C8E0F1BDF5BA00076B5C2 /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseNavigationController.m; path = Base/BaseNavigationController.m; sourceTree = "<group>"; };
 		304C8E151BDF5E870076B5C2 /* BVBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BVBaseModel.h; path = Base/BVBaseModel.h; sourceTree = "<group>"; };
@@ -989,6 +995,10 @@
 				300D323A1BE05F6800EA705A /* UserModel.m */,
 				300D323D1BE05F6800EA705A /* WeiboModel.h */,
 				300D323E1BE05F6800EA705A /* WeiboModel.m */,
+				304857571BE0BDF200BA4589 /* RepostWeiboModel.h */,
+				304857581BE0BDF200BA4589 /* RepostWeiboModel.m */,
+				3048575A1BE0BF9100BA4589 /* RepostUserModel.h */,
+				3048575B1BE0BF9100BA4589 /* RepostUserModel.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -2272,6 +2282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3086FEC81BDF1FE50092388D /* UIImage+GIF.m in Sources */,
+				304857591BE0BDF200BA4589 /* RepostWeiboModel.m in Sources */,
 				3086FEB61BDF1FE50092388D /* AFURLRequestSerialization.m in Sources */,
 				3086FEB91BDF1FE50092388D /* MMDrawerBarButtonItem.m in Sources */,
 				3086FEB51BDF1FE50092388D /* AFURLConnectionOperation.m in Sources */,
@@ -2287,6 +2298,7 @@
 				3086FEC21BDF1FE50092388D /* SDWebImageDecoder.m in Sources */,
 				3086FEBA1BDF1FE50092388D /* MMDrawerController.m in Sources */,
 				3086FEC71BDF1FE50092388D /* UIButton+WebCache.m in Sources */,
+				3048575C1BE0BF9100BA4589 /* RepostUserModel.m in Sources */,
 				3086FEC51BDF1FE50092388D /* SDWebImageManager.m in Sources */,
 				3086FEBB1BDF1FE50092388D /* MMDrawerVisualState.m in Sources */,
 				3086FECC1BDF1FE50092388D /* UIImageView+WebCache.m in Sources */,

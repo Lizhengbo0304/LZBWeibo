@@ -1,0 +1,24 @@
+{
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "dbe1a8a4-6037-1a41-a606-be21bb42d9ff++1334" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "dbe1a8a4-6037-1a41-a606-be21bb42d9ff++1334" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "674DDA3C-9610-49A1-9C4F-BB972F4D9094",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "dbe1a8a4-6037-1a41-a606-be21bb42d9ff++1334" : "LZBWeibo\/LZBWeibo\/SDWebImage\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "LZBWeibo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "LZBWeibo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/192.168.10.231:8081\/svn\/Weibo_Class50",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "dbe1a8a4-6037-1a41-a606-be21bb42d9ff++1334"
+    }
+  ]
+}

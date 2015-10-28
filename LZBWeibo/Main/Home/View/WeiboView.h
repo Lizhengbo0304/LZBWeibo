@@ -20,6 +20,12 @@
 //背景视图
 @property (nonatomic,strong)UIImageView *backgroundImage;
 
+//转发文字
+@property (nonatomic,strong)RTLabel *reTextLabel;
+
+//转发图片
+@property (nonatomic,strong)UIImageView *reImageView;
+
 @property (nonatomic,strong)WeiboModel *model;
 
 @end

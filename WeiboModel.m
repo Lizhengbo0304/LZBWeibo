@@ -26,7 +26,8 @@
                              @"repostsCount":@"reposts_count",
                              @"commentsCount":@"comments_count",
                              @"pic_urls":@"pic_urls",
-                             @"user":@"user"
+                             @"user":@"user",
+                             @"repostModel":@"retweeted_status"
                              };
     
     return mapAtt;

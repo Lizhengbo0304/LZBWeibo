@@ -8,6 +8,7 @@
 
 #import "BVBaseModel.h"
 #import "UserModel.h"
+#import "RepostWeiboModel.h"
 
 /*
  
@@ -55,5 +56,7 @@
 @property (nonatomic,retain) NSArray *pic_urls;//图片数组
 
 @property (nonatomic, retain)UserModel *user;
+
+@property (nonatomic,retain)RepostWeiboModel *repostModel;
 
 @end

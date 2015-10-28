@@ -24,6 +24,8 @@
     
     //2.请求参数
     NSDictionary *parameters = @{@"access_token":kAccessToken};
+    
+    NSLog(@"%@",kAccessToken);
     //1.获取请求管理对象
     AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
     
