@@ -1,0 +1,45 @@
+//
+//  Common.pch
+//  LZBWeibo
+//
+//  Created by LiZhengbo on 15/10/27.
+//  Copyright © 2015年 李正博. All rights reserved.
+//
+
+#ifndef Common_pch
+#define Common_pch
+
+//微博数据
+#define kAppKey @"4187889357"   //APPKey
+#define kRequestURL @"https://api.weibo.com/oauth2/default.html"    //Oauth授权回调页
+
+//token
+#define kAccessToken [[NSUserDefaults standardUserDefaults] objectForKey:@"accessToken"]
+//key
+#define kUserDefaultsTokenKey @"accessToken"
+
+//微博SDk
+#import "WeiboSDK.h"
+
+//第三方
+#import "Utils.h"
+#import "UIViewExt.h"
+
+//SDWebImage
+#import "UIImageView+WebCache.h"
+
+//rtlabel
+#import "RTLabel.h"
+
+//屏幕宽、高
+#define kScreenWidth  [UIScreen mainScreen].bounds.size.width
+#define kScreenHeight [UIScreen mainScreen].bounds.size.height
+
+//主题改变通知名
+#define kThemeChangeNotification @"kThemeChangeNotification"
+
+#import "ThemeManager.h"
+
+#import "Core.h"
+
+#endif /* Common_pch */
