@@ -100,10 +100,10 @@
     
     if (weiboView.model.repostModel) {
         
-        return 71 + weiboView.reImageView.bottom + weiboView.imageView.bottom;
+        return 81 + weiboView.reImageView.bottom + weiboView.imageView.bottom;
     }
 
-    return 71 + weiboView.imageView.bottom;
+    return 76 + weiboView.imageView.bottom;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {

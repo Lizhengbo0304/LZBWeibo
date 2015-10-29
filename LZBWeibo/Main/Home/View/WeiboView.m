@@ -115,7 +115,7 @@
             
             [_reImageView setImageWithURL:[NSURL URLWithString:[[_model.repostModel.pic_urls lastObject] objectForKey:@"thumbnail_pic"]]];
             
-            _backgroundImage.frame = CGRectMake(0, _imageView.bottom + 5, self.width, _reImageView.bottom);
+            _backgroundImage.frame = CGRectMake(0, _imageView.bottom + 5, self.width, _reImageView.bottom + 5);
             
             return;
         }
@@ -123,7 +123,7 @@
         _reImageView.hidden = YES;
         _reImageView.frame = CGRectMake(0, _reTextLabel.bottom, 0, 0);
         
-        _backgroundImage.frame = CGRectMake(0, _imageView.bottom + 5, self.width, _reImageView.bottom);
+        _backgroundImage.frame = CGRectMake(0, _imageView.bottom + 5, self.width, _reImageView.bottom + 5);
 
     }
     _backgroundImage.hidden = YES;

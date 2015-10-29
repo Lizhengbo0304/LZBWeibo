@@ -70,7 +70,7 @@
                 
     }
     
-    cell.themeName = _dataList[indexPath.row];
+    cell.themeName.text = _dataList[indexPath.row];
     
     cell.themeIcon.image = [self getThemeIcon:_dataList[indexPath.row]];
     
